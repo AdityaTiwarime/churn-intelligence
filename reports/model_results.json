@@ -1,0 +1,66 @@
+{
+  "models": {
+    "logistic_regression": {
+      "cv_roc_auc_mean": 0.8472,
+      "cv_roc_auc_std": 0.0152,
+      "test": {
+        "roc_auc": 0.8464,
+        "pr_auc": 0.6642,
+        "precision": 0.5373,
+        "recall": 0.7513,
+        "f1": 0.6265,
+        "threshold": 0.54
+      }
+    },
+    "lightgbm": {
+      "cv_roc_auc_mean": 0.8397,
+      "cv_roc_auc_std": 0.0144,
+      "test": {
+        "roc_auc": 0.8386,
+        "pr_auc": 0.6556,
+        "precision": 0.5525,
+        "recall": 0.7032,
+        "f1": 0.6188,
+        "threshold": 0.57
+      }
+    },
+    "xgboost": {
+      "cv_roc_auc_mean": 0.8486,
+      "cv_roc_auc_std": 0.0151,
+      "test": {
+        "roc_auc": 0.8487,
+        "pr_auc": 0.6761,
+        "precision": 0.5677,
+        "recall": 0.7059,
+        "f1": 0.6293,
+        "threshold": 0.6
+      }
+    }
+  },
+  "best_model": "xgboost",
+  "best_params_xgboost": {
+    "subsample": 0.7,
+    "reg_lambda": 5,
+    "n_estimators": 600,
+    "min_child_weight": 10,
+    "max_depth": 2,
+    "learning_rate": 0.02,
+    "colsample_bytree": 0.7
+  },
+  "top_decile_churn_rate": 0.7714,
+  "top_decile_lift": 2.91,
+  "shap_top_features": {
+    "contract_Month-to-month": 0.5453,
+    "tenure_months": 0.4509,
+    "internet_service_Fiber optic": 0.252,
+    "contract_Two year": 0.1877,
+    "payment_method_Electronic check": 0.1844,
+    "internet_service_No": 0.1687,
+    "paperless_billing": 0.1409,
+    "total_charges": 0.1139,
+    "monthly_charges": 0.0956,
+    "avg_monthly_paid": 0.0893,
+    "streaming_tv_No": 0.0844,
+    "is_fiber": 0.0808
+  }
+}

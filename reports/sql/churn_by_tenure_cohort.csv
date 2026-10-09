@@ -1,0 +1,6 @@
+tenure_cohort,customers,churn_rate_pct
+01: 0-6 months,1481,52.94
+02: 7-12 months,705,35.89
+03: 13-24 months,1024,28.71
+04: 25-48 months,1594,20.39
+05: 49+ months,2239,9.51

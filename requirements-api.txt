@@ -1,0 +1,12 @@
+# Slim set for the serving container. Versions must match training (the model is a pickle).
+pandas==3.0.5
+numpy==2.5.3
+scikit-learn==1.9.1
+xgboost==3.4.1
+shap==0.53.0
+joblib==1.6.0
+sqlalchemy==2.1.4
+fastapi==0.143.0
+uvicorn==0.53.0
+pydantic==2.13.5
+openai==3.27.0

@@ -1,0 +1,10 @@
+contract,internet_service,churned_customers,lost_monthly_revenue,rank_in_contract,share_of_total_pct
+Month-to-month,Fiber optic,1162,100482.0,1,72.22
+Month-to-month,DSL,394,18367.25,2,13.2
+One year,Fiber optic,104,10571.95,1,7.6
+One year,DSL,53,3356.25,2,2.41
+Two year,Fiber optic,31,3246.1,1,2.33
+Month-to-month,No,99,1997.85,3,1.44
+Two year,DSL,12,805.7,2,0.58
+One year,No,9,190.25,3,0.14
+Two year,No,5,113.5,3,0.08

@@ -1,0 +1,87 @@
+{
+  "silhouette_by_k": {
+    "3": 0.2499,
+    "4": 0.2451,
+    "5": 0.2633,
+    "6": 0.2726,
+    "7": 0.2822,
+    "8": 0.2815
+  },
+  "best_k": 7,
+  "pca_variance_explained": [
+    0.326,
+    0.261
+  ],
+  "profile": [
+    {
+      "segment": 0,
+      "customers": 718,
+      "churn_rate": 0.567,
+      "avg_tenure": 19.109,
+      "avg_monthly": 76.183,
+      "fiber_share": 0.763,
+      "auto_pay_share": 0.223,
+      "avg_addons": 1.63
+    },
+    {
+      "segment": 2,
+      "customers": 1365,
+      "churn_rate": 0.555,
+      "avg_tenure": 16.789,
+      "avg_monthly": 85.148,
+      "fiber_share": 0.999,
+      "auto_pay_share": 0.259,
+      "avg_addons": 1.707
+    },
+    {
+      "segment": 3,
+      "customers": 1517,
+      "churn_rate": 0.273,
+      "avg_tenure": 11.63,
+      "avg_monthly": 39.922,
+      "fiber_share": 0.0,
+      "auto_pay_share": 0.255,
+      "avg_addons": 0.98
+    },
+    {
+      "segment": 6,
+      "customers": 380,
+      "churn_rate": 0.182,
+      "avg_tenure": 58.097,
+      "avg_monthly": 93.204,
+      "fiber_share": 0.745,
+      "auto_pay_share": 0.687,
+      "avg_addons": 3.889
+    },
+    {
+      "segment": 5,
+      "customers": 901,
+      "churn_rate": 0.163,
+      "avg_tenure": 57.604,
+      "avg_monthly": 101.406,
+      "fiber_share": 1.0,
+      "auto_pay_share": 0.657,
+      "avg_addons": 3.969
+    },
+    {
+      "segment": 1,
+      "customers": 1001,
+      "churn_rate": 0.05,
+      "avg_tenure": 52.284,
+      "avg_monthly": 69.261,
+      "fiber_share": 0.0,
+      "auto_pay_share": 0.701,
+      "avg_addons": 4.082
+    },
+    {
+      "segment": 4,
+      "customers": 1161,
+      "churn_rate": 0.022,
+      "avg_tenure": 40.824,
+      "avg_monthly": 24.56,
+      "fiber_share": 0.0,
+      "auto_pay_share": 0.525,
+      "avg_addons": 0.196
+    }
+  ]
+}

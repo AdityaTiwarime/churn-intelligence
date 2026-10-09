@@ -1,0 +1,31 @@
+{
+  "rows": 7043,
+  "churn_rate": 0.2654,
+  "outliers_iqr": {
+    "tenure_months": {
+      "lower": -60.0,
+      "upper": 124.0,
+      "outliers": 0
+    },
+    "monthly_charges": {
+      "lower": -46.02,
+      "upper": 171.38,
+      "outliers": 0
+    },
+    "total_charges": {
+      "lower": -4683.52,
+      "upper": 8868.67,
+      "outliers": 0
+    }
+  },
+  "engineered_features": [
+    "addon_count",
+    "has_family",
+    "auto_pay",
+    "is_fiber",
+    "new_customer",
+    "avg_monthly_paid",
+    "charge_increase",
+    "tenure_cohort"
+  ]
+}

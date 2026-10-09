@@ -1,0 +1,190 @@
+{
+  "overall_churn": [
+    {
+      "customers": 7043,
+      "churned": 1869,
+      "churn_rate_pct": 26.54
+    }
+  ],
+  "churn_by_contract": [
+    {
+      "contract": "Month-to-month",
+      "customers": 3875,
+      "churn_rate_pct": 42.71,
+      "avg_monthly_charges": 66.4
+    },
+    {
+      "contract": "One year",
+      "customers": 1473,
+      "churn_rate_pct": 11.27,
+      "avg_monthly_charges": 65.05
+    },
+    {
+      "contract": "Two year",
+      "customers": 1695,
+      "churn_rate_pct": 2.83,
+      "avg_monthly_charges": 60.77
+    }
+  ],
+  "churn_by_tenure_cohort": [
+    {
+      "tenure_cohort": "01: 0-6 months",
+      "customers": 1481,
+      "churn_rate_pct": 52.94
+    },
+    {
+      "tenure_cohort": "02: 7-12 months",
+      "customers": 705,
+      "churn_rate_pct": 35.89
+    },
+    {
+      "tenure_cohort": "03: 13-24 months",
+      "customers": 1024,
+      "churn_rate_pct": 28.71
+    },
+    {
+      "tenure_cohort": "04: 25-48 months",
+      "customers": 1594,
+      "churn_rate_pct": 20.39
+    },
+    {
+      "tenure_cohort": "05: 49+ months",
+      "customers": 2239,
+      "churn_rate_pct": 9.51
+    }
+  ],
+  "churn_by_internet_and_support": [
+    {
+      "internet_service": "Fiber optic",
+      "tech_support": "No",
+      "customers": 2230,
+      "churn_rate_pct": 49.37
+    },
+    {
+      "internet_service": "DSL",
+      "tech_support": "No",
+      "customers": 1243,
+      "churn_rate_pct": 27.76
+    },
+    {
+      "internet_service": "Fiber optic",
+      "tech_support": "Yes",
+      "customers": 866,
+      "churn_rate_pct": 22.63
+    },
+    {
+      "internet_service": "DSL",
+      "tech_support": "Yes",
+      "customers": 1178,
+      "churn_rate_pct": 9.68
+    }
+  ],
+  "churn_by_payment_method": [
+    {
+      "payment_method": "Electronic check",
+      "customers": 2365,
+      "churn_rate_pct": 45.29
+    },
+    {
+      "payment_method": "Mailed check",
+      "customers": 1612,
+      "churn_rate_pct": 19.11
+    },
+    {
+      "payment_method": "Bank transfer (automatic)",
+      "customers": 1544,
+      "churn_rate_pct": 16.71
+    },
+    {
+      "payment_method": "Credit card (automatic)",
+      "customers": 1522,
+      "churn_rate_pct": 15.24
+    }
+  ],
+  "senior_churn": [
+    {
+      "senior_citizen": false,
+      "customers": 5901,
+      "churn_rate_pct": 23.61
+    },
+    {
+      "senior_citizen": true,
+      "customers": 1142,
+      "churn_rate_pct": 41.68
+    }
+  ],
+  "revenue_at_risk": [
+    {
+      "contract": "Month-to-month",
+      "internet_service": "Fiber optic",
+      "churned_customers": 1162,
+      "lost_monthly_revenue": 100482.0,
+      "rank_in_contract": 1,
+      "share_of_total_pct": 72.22
+    },
+    {
+      "contract": "Month-to-month",
+      "internet_service": "DSL",
+      "churned_customers": 394,
+      "lost_monthly_revenue": 18367.25,
+      "rank_in_contract": 2,
+      "share_of_total_pct": 13.2
+    },
+    {
+      "contract": "One year",
+      "internet_service": "Fiber optic",
+      "churned_customers": 104,
+      "lost_monthly_revenue": 10571.95,
+      "rank_in_contract": 1,
+      "share_of_total_pct": 7.6
+    },
+    {
+      "contract": "One year",
+      "internet_service": "DSL",
+      "churned_customers": 53,
+      "lost_monthly_revenue": 3356.25,
+      "rank_in_contract": 2,
+      "share_of_total_pct": 2.41
+    },
+    {
+      "contract": "Two year",
+      "internet_service": "Fiber optic",
+      "churned_customers": 31,
+      "lost_monthly_revenue": 3246.1,
+      "rank_in_contract": 1,
+      "share_of_total_pct": 2.33
+    },
+    {
+      "contract": "Month-to-month",
+      "internet_service": "No",
+      "churned_customers": 99,
+      "lost_monthly_revenue": 1997.85,
+      "rank_in_contract": 3,
+      "share_of_total_pct": 1.44
+    },
+    {
+      "contract": "Two year",
+      "internet_service": "DSL",
+      "churned_customers": 12,
+      "lost_monthly_revenue": 805.7,
+      "rank_in_contract": 2,
+      "share_of_total_pct": 0.58
+    },
+    {
+      "contract": "One year",
+      "internet_service": "No",
+      "churned_customers": 9,
+      "lost_monthly_revenue": 190.25,
+      "rank_in_contract": 3,
+      "share_of_total_pct": 0.14
+    },
+    {
+      "contract": "Two year",
+      "internet_service": "No",
+      "churned_customers": 5,
+      "lost_monthly_revenue": 113.5,
+      "rank_in_contract": 3,
+      "share_of_total_pct": 0.08
+    }
+  ]
+}
