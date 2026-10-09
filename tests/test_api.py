@@ -50,3 +50,9 @@ def test_reasons_match_the_customer():
     body = client.post("/predict", json={**RISKY, "phone_service": False}).json()
     reasons = [d["reason"] for d in body["top_drivers"]]
     assert "has a phone line" not in reasons
+
+
+def test_home_redirects_to_docs():
+    r = client.get("/", follow_redirects=False)
+    assert r.status_code in (302, 307)
+    assert r.headers["location"] == "/docs"

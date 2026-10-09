@@ -5,6 +5,7 @@ from typing import Literal
 
 import pandas as pd
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 from pydantic import BaseModel, Field
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
@@ -58,6 +59,12 @@ def risk_band(p: float) -> str:
     if p >= 0.40:
         return "medium"
     return "low"
+
+
+@app.get("/", include_in_schema=False)
+def home():
+    # the bare URL is what people click from a resume; send them to the interactive docs
+    return RedirectResponse(url="/docs")
 
 
 @app.get("/health")

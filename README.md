@@ -2,6 +2,8 @@
 
 Which telecom customers are about to leave, why, and what should the company do about it?
 
+**Live API:** https://churn-intelligence-34rc.onrender.com (interactive docs; the free server may take ~50 seconds to wake up)
+
 This project answers that end to end on the public **IBM Telco Customer Churn** dataset (7,043 customers): SQL analysis in PostgreSQL, statistics, a tuned churn model with per-customer explanations, customer segments, an LLM-written retention plan, a REST API and Power BI / Excel outputs for business users.
 
 ```
